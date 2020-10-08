@@ -1,0 +1,13 @@
+              Seregélyes    Győr    Ásványráró    Szolnok
+Töltéstava    80            10      35            190       100
+Komárom       70            35      50            150       400
+DSZH          120           55      80            200       250
+              100           350     50            250
+
+
+D -> S  100
+D -> Gy 150
+K -> Gy 200
+K -> Á  50
+K -> Sz 150
+T -> Sz 100

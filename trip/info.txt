@@ -1,0 +1,19 @@
+Győr -> Barcelona
+
+Bécs		    122		350
+Salzburg    417   361
+München     564		429
+Stuttgart   783   451
+Frankfurt	  988   445
+Luxemburg   1229  390
+Párizs		  1619	449
+Auxerre     1766  487
+Lyon        1932  479
+Montpellier 2236	465
+Perpignan   2365  461
+Barcelona   2522  436
+
+2.5l/100km
+15l tank
+
+münchen frankfurt luxemburg auxerre perpignan barcelona

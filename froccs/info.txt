@@ -1,0 +1,35 @@
+							bor	szóda	ár
+kisfröccs			1		1			200
+nagyfröccs		2		1			330-
+hosszúlépés		1		2			210-
+házmester			3		2			470
+viceházmester	2		3			400
+háziúr				4		1			600
+sportfröccs		1		4			250-
+puskás				6		3			900
+krúdy					9		1			1500-
+sóherfröccs		1		9			300-
+
+100l bor
+150l szóda
+
+300 x vhm
+300 x hm + 100 x s
+500 x kf + 500 x hl
+165 x p + 10 x kf
+111.11111... x kr
+
+3 x nagyfröccs > 1 x puskás
+1 x kisfröccs + 1 x nagyfröccs > 1 x házmester
+1 x kisfröccs + 1 x hosszúlépés > 1 x viceházmester
+5 x kisfröccs > 1 x háziúr + 1 x sportfröccs
+10 x kisfröccs > 1 x krúdy + 1 x sóherfröccs
+3 x kisfröccs > 1 x nagyförccs + 1 x hosszúlépés
+
+150 x kf + 150 x hl
+100 x sp + 200 x hl + 700 kf
+
+h = ? x kr + ? x nf
+
+2 x h = 2 x kr + 5 x nf
+4200 = 3000 + 1650

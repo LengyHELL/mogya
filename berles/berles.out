@@ -1,0 +1,153 @@
+Problem:    berles
+Rows:       37
+Columns:    31 (25 integer, 0 binary)
+Non-zeros:  187
+Status:     INTEGER OPTIMAL
+Objective:  income = 540 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 no_extra_sell[1,subaru]
+                                   0            -0
+     2 no_extra_sell[1,audi]
+                                   0            -0
+     3 no_extra_sell[1,volkswagen]
+                                   0            -0
+     4 no_extra_sell[1,chevrolet]
+                                   0            -0
+     5 no_extra_sell[1,honda]
+                                   5            -0
+     6 no_extra_sell[2,subaru]
+                                   0            -0
+     7 no_extra_sell[2,audi]
+                                   0            -0
+     8 no_extra_sell[2,volkswagen]
+                                   5            -0
+     9 no_extra_sell[2,chevrolet]
+                                   0            -0
+    10 no_extra_sell[2,honda]
+                                   0            -0
+    11 no_extra_sell[3,subaru]
+                                   0            -0
+    12 no_extra_sell[3,audi]
+                                   0            -0
+    13 no_extra_sell[3,volkswagen]
+                                   0            -0
+    14 no_extra_sell[3,chevrolet]
+                                   5            -0
+    15 no_extra_sell[3,honda]
+                                   0            -0
+    16 no_extra_sell[4,subaru]
+                                   5            -0
+    17 no_extra_sell[4,audi]
+                                   0            -0
+    18 no_extra_sell[4,volkswagen]
+                                   0            -0
+    19 no_extra_sell[4,chevrolet]
+                                   0            -0
+    20 no_extra_sell[4,honda]
+                                   0            -0
+    21 no_extra_sell[5,subaru]
+                                   0            -0
+    22 no_extra_sell[5,audi]
+                                   0            -0
+    23 no_extra_sell[5,volkswagen]
+                                   0            -0
+    24 no_extra_sell[5,chevrolet]
+                                   0            -0
+    25 no_extra_sell[5,honda]
+                                   0            -0
+    26 no_extra_buy[1]
+                                   5                           5
+    27 no_extra_buy[2]
+                                   5                           5
+    28 no_extra_buy[3]
+                                   5                           5
+    29 no_extra_buy[4]
+                                   5                           5
+    30 no_extra_buy[5]
+                                   0                           5
+    31 money_constraint[1]
+                                   0            -0             =
+    32 money_constraint[2]
+                                   0            -0             =
+    33 money_constraint[3]
+                                   0            -0             =
+    34 money_constraint[4]
+                                   0            -0             =
+    35 money_constraint[5]
+                                   0            -0             =
+    36 starting_money
+                                 100           100             =
+    37 income                    540
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 buyAndSell[subaru,1]
+                    *              0
+     2 buyAndSell[audi,1]
+                    *              0
+     3 buyAndSell[volkswagen,1]
+                    *              0
+     4 buyAndSell[chevrolet,1]
+                    *              0
+     5 buyAndSell[honda,1]
+                    *              5
+     6 buyAndSell[subaru,2]
+                    *              0
+     7 buyAndSell[audi,2]
+                    *              0
+     8 buyAndSell[volkswagen,2]
+                    *              5
+     9 buyAndSell[chevrolet,2]
+                    *              0
+    10 buyAndSell[honda,2]
+                    *             -5
+    11 buyAndSell[subaru,3]
+                    *              0
+    12 buyAndSell[audi,3]
+                    *              0
+    13 buyAndSell[volkswagen,3]
+                    *             -5
+    14 buyAndSell[chevrolet,3]
+                    *              5
+    15 buyAndSell[honda,3]
+                    *              0
+    16 buyAndSell[subaru,4]
+                    *              5
+    17 buyAndSell[audi,4]
+                    *              0
+    18 buyAndSell[volkswagen,4]
+                    *              0
+    19 buyAndSell[chevrolet,4]
+                    *             -5
+    20 buyAndSell[honda,4]
+                    *              0
+    21 buyAndSell[subaru,5]
+                    *             -5
+    22 buyAndSell[audi,5]
+                    *              0
+    23 buyAndSell[volkswagen,5]
+                    *              0
+    24 buyAndSell[chevrolet,5]
+                    *              0
+    25 buyAndSell[honda,5]
+                    *              0
+    26 money[1]                   40             0
+    27 money[0]                  100             0
+    28 money[2]                   80             0
+    29 money[3]                  205             0
+    30 money[4]                  420             0
+    31 money[5]                  540             0
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 1.14e-13 on row 34
+        max.rel.err = 1.14e-13 on row 34
+        High quality
+
+End of output

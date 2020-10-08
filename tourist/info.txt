@@ -1,0 +1,8 @@
+hántás, fehér alap, jel, lakkozás
+            Andi  Béla  Cili  Dia Elek  Feri  Babi  Hedvig
+hántés      4
+fehér alap  3
+jel         3.5
+lakk        4.5
+
+8x 1 óra 50 + 10 p

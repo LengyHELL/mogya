@@ -1,0 +1,7 @@
+              Frontend    Backend   DB    CSS   Agilis    DevOps
+0   Tibor                 x               x
+8   David     x           x               x
+-2  Botond                          x           x
+4   Bence                           x     x               x
+3   Márk      x                                 x
+-10 Balázs                          x                     x

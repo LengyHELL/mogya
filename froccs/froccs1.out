@@ -1,0 +1,55 @@
+Problem:    froccs1
+Rows:       3
+Columns:    10
+Non-zeros:  30
+Status:     OPTIMAL
+Objective:  Bevetel = 208333.3333 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Limit[bor]   NU          1000                        1000       183.333 
+     2 Limit[szoda] NU          1500                        1500       16.6667 
+     3 Bevetel      B         208333                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Eladas[kisfroccs]
+                    B        833.333             0               
+     2 Eladas[nagyfroccs]
+                    NL             0             0                    -53.3333 
+     3 Eladas[hosszulepes]
+                    NL             0             0                    -6.66667 
+     4 Eladas[hazmester]
+                    NL             0             0                    -113.333 
+     5 Eladas[vicehazmester]
+                    NL             0             0                    -16.6667 
+     6 Eladas[haziur]
+                    NL             0             0                        -150 
+     7 Eladas[sportfroccs]
+                    B        166.667             0               
+     8 Eladas[puskas]
+                    NL             0             0                        -250 
+     9 Eladas[krudy]
+                    NL             0             0                    -166.667 
+    10 Eladas[soherfroccs]
+                    NL             0             0                    -33.3333 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 4.55e-13 on row 2
+        max.rel.err = 1.52e-16 on row 2
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 1.14e-13 on column 6
+        max.rel.err = 1.42e-16 on column 1
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

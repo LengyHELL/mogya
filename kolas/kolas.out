@@ -1,0 +1,52 @@
+Problem:    kolas
+Rows:       8
+Columns:    12
+Non-zeros:  36
+Status:     OPTIMAL
+Objective:  Cost = 617500 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 TT_nomore    NU           100                         100          -450 
+     2 KO_nomore    NU           400                         400          -200 
+     3 DSZH_nomore  B            250                         250 
+     4 S_nomore     NL           100           100                         900 
+     5 Gy_nomore    NL           350           350                         550 
+     6 As_nomore    NL            50            50                         700 
+     7 Sz_nomore    NL           250           250                        1700 
+     8 Cost         B         617500                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 xTS          NL             0             0                         350 
+     2 xTGy         B            100             0               
+     3 xTAs         NL             0             0                         100 
+     4 xTSz         NL             0             0                         650 
+     5 xKS          B            100             0               
+     6 xKGy         B              0             0               
+     7 xKAs         B             50             0               
+     8 xKSz         B            250             0               
+     9 xDS          NL             0             0                         300 
+    10 xDGy         B            250             0               
+    11 xDAs         NL             0             0                         100 
+    12 xDSz         NL             0             0                         300 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
