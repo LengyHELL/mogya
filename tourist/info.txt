@@ -1,8 +1,8 @@
 hántás, fehér alap, jel, lakkozás
-            Andi  Béla  Cili  Dia Elek  Feri  Babi  Hedvig
-hántés      4
-fehér alap  3
-jel         3.5
-lakk        4.5
+            Andi  Béla  Cili  Dia   Elek  Feri  Gabi  Hedvig
+hántés      3.27	5.22	3.98	5.45	2.09	6.83	5.65	4.79
+fehér alap  5.70	6.45	4.08	5.82	4.13	2.51	3.38	5.42
+jel         6.55	4.19	4.81	5.10	3.04	6.32	4.73	4.03
+lakk        3.66	2.23	6.76	5.53	5.29	4.55	3.20	6.21
 
 8x 1 óra 50 + 10 p
