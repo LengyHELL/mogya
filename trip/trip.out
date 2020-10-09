@@ -1,12 +1,103 @@
-Becs: 48l
-Salzburg: 0l
-Munchen: 0l
-Stuttgart: 0l
-Frankfurt: 0l
-Luxemburg: 0l
-Parizs: 0l
-Auxerre: 0l
-Lyon: 0l
-Montpellier: 0l
-Perpignan: 0l
-Barcelona: 0l
+Problem:    trip
+Rows:       26
+Columns:    12
+Non-zeros:  168
+Status:     OPTIMAL
+Objective:  Fuel_cost = 22587.95 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 enough_fuel[Becs]
+                    B              0          -198               
+     2 enough_fuel[Salzburg]
+                    B            322            97               
+     3 enough_fuel[Munchen]
+                    B            617           244               
+     4 enough_fuel[Stuttgart]
+                    B            764           463               
+     5 enough_fuel[Frankfurt]
+                    B            764           668               
+     6 enough_fuel[Luxemburg]
+                    NL           909           909                       1.375 
+     7 enough_fuel[Parizs]
+                    B           1429          1299               
+     8 enough_fuel[Auxerre]
+                    B           1819          1446               
+     9 enough_fuel[Lyon]
+                    B           1819          1612               
+    10 enough_fuel[Montpellier]
+                    NL          1916          1916                        0.35 
+    11 enough_fuel[Perpignan]
+                    NL          2045          2045                         0.1 
+    12 enough_fuel[Barcelona]
+                    NL          2202          2202                      11.525 
+    13 fuel_needed  B           2202          2122               
+    14 no_overfill[Becs]
+                    NU          8.05                        8.05           -11 
+    15 no_overfill[Salzburg]
+                    NU        15.425                      15.425           -68 
+    16 no_overfill[Munchen]
+                    NU          19.1                        19.1           -16 
+    17 no_overfill[Stuttgart]
+                    B           19.1                      24.575 
+    18 no_overfill[Frankfurt]
+                    B         22.725                        29.7 
+    19 no_overfill[Luxemburg]
+                    NU        35.725                      35.725           -59 
+    20 no_overfill[Parizs]
+                    NU        45.475                      45.475           -30 
+    21 no_overfill[Auxerre]
+                    B         45.475                       49.15 
+    22 no_overfill[Lyon]
+                    B           47.9                        53.3 
+    23 no_overfill[Montpellier]
+                    B         51.125                        60.9 
+    24 no_overfill[Perpignan]
+                    B          55.05                      64.125 
+    25 no_overfill[Barcelona]
+                    B          55.05                       68.05 
+    26 Fuel_cost    B          22588                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 fill[Becs]   B           8.05             0               
+     2 fill[Salzburg]
+                    B          7.375             0               
+     3 fill[Munchen]
+                    B          3.675             0               
+     4 fill[Stuttgart]
+                    NL             0             0                           6 
+     5 fill[Frankfurt]
+                    B          3.625             0               
+     6 fill[Luxemburg]
+                    B             13             0               
+     7 fill[Parizs] B           9.75             0               
+     8 fill[Auxerre]
+                    NL             0             0                           8 
+     9 fill[Lyon]   B          2.425             0               
+    10 fill[Montpellier]
+                    B          3.225             0               
+    11 fill[Perpignan]
+                    B          3.925             0               
+    12 fill[Barcelona]
+                    NL             0             0                         436 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 2.27e-13 on row 10
+        max.rel.err = 9.81e-17 on row 19
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

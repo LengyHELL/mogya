@@ -2,11 +2,11 @@ data;
 
 set Stations := Becs Salzburg Munchen Stuttgart Frankfurt Luxemburg Parizs Auxerre Lyon Montpellier Perpignan Barcelona;
 
-param start_fuel := 15;
+param start_fuel := 10;
 param max_fuel := 15;
 param total_distance := 2522;
 param fuel_consumption := 2.5;
-param extra_mileage := 2;
+param spare_fuel := 2;
 
 param distance :=
   Becs        122
