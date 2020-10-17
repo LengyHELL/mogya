@@ -1,0 +1,24 @@
+S - scene
+A - actor
+
+    A1  A2  A3  A4  A5  A6
+S1  1   0   0   0   1   1
+S2  0   1   0   0   1   0
+S3  1   0   0   1   0   1
+S4  0   1   1   1   1   1
+S5  1   0   1   1   0   0
+
+charge for the actor to work
+A1  80  $
+A2  130 $
+A3  120 $
+A4  220 $
+A5  230 $
+A6  250 $
+
+time the scene filming takes
+S1  104 min
+S2  123 min
+S3  94  min
+S4  183 min
+S5  52  min
