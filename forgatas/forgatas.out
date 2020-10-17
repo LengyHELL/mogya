@@ -1,0 +1,290 @@
+Problem:    forgatas
+Rows:       31
+Columns:    105 (100 integer, 100 binary)
+Non-zeros:  310
+Status:     INTEGER OPTIMAL
+Objective:  Cost = 2840 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 no_overworking[1]
+                                 410                         480 
+     2 no_overworking[2]
+                                 146                         480 
+     3 no_overworking[3]
+                                   0                         480 
+     4 no_overworking[4]
+                                   0                         480 
+     5 no_overworking[5]
+                                   0                         480 
+     6 no_overworking[6]
+                                   0                         480 
+     7 no_overworking[7]
+                                   0                         480 
+     8 no_overworking[8]
+                                   0                         480 
+     9 no_overworking[9]
+                                   0                         480 
+    10 no_overworking[10]
+                                   0                         480 
+    11 no_overworking[11]
+                                   0                         480 
+    12 no_overworking[12]
+                                   0                         480 
+    13 no_overworking[13]
+                                   0                         480 
+    14 no_overworking[14]
+                                   0                         480 
+    15 no_overworking[15]
+                                   0                         480 
+    16 no_overworking[16]
+                                   0                         480 
+    17 no_overworking[17]
+                                   0                         480 
+    18 no_overworking[18]
+                                   0                         480 
+    19 no_overworking[19]
+                                   0                         480 
+    20 no_overworking[20]
+                                   0                         480 
+    21 checking_done_scenes[S1]
+                                   0            -0             = 
+    22 checking_done_scenes[S2]
+                                   0            -0             = 
+    23 checking_done_scenes[S3]
+                                   0            -0             = 
+    24 checking_done_scenes[S4]
+                                   0            -0             = 
+    25 checking_done_scenes[S5]
+                                   0            -0             = 
+    26 need_all_scenes[S1]
+                                   1             1               
+    27 need_all_scenes[S2]
+                                   1             1               
+    28 need_all_scenes[S3]
+                                   1             1               
+    29 need_all_scenes[S4]
+                                   1             1               
+    30 need_all_scenes[S5]
+                                   1             1               
+    31 Cost                     2840                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 schedule[1,S1]
+                    *              1             0             1 
+     2 schedule[1,S2]
+                    *              1             0             1 
+     3 schedule[1,S3]
+                    *              0             0             1 
+     4 schedule[1,S4]
+                    *              1             0             1 
+     5 schedule[1,S5]
+                    *              0             0             1 
+     6 schedule[2,S1]
+                    *              0             0             1 
+     7 schedule[2,S2]
+                    *              0             0             1 
+     8 schedule[2,S3]
+                    *              1             0             1 
+     9 schedule[2,S4]
+                    *              0             0             1 
+    10 schedule[2,S5]
+                    *              1             0             1 
+    11 schedule[3,S1]
+                    *              0             0             1 
+    12 schedule[3,S2]
+                    *              0             0             1 
+    13 schedule[3,S3]
+                    *              0             0             1 
+    14 schedule[3,S4]
+                    *              0             0             1 
+    15 schedule[3,S5]
+                    *              0             0             1 
+    16 schedule[4,S1]
+                    *              0             0             1 
+    17 schedule[4,S2]
+                    *              0             0             1 
+    18 schedule[4,S3]
+                    *              0             0             1 
+    19 schedule[4,S4]
+                    *              0             0             1 
+    20 schedule[4,S5]
+                    *              0             0             1 
+    21 schedule[5,S1]
+                    *              0             0             1 
+    22 schedule[5,S2]
+                    *              0             0             1 
+    23 schedule[5,S3]
+                    *              0             0             1 
+    24 schedule[5,S4]
+                    *              0             0             1 
+    25 schedule[5,S5]
+                    *              0             0             1 
+    26 schedule[6,S1]
+                    *              0             0             1 
+    27 schedule[6,S2]
+                    *              0             0             1 
+    28 schedule[6,S3]
+                    *              0             0             1 
+    29 schedule[6,S4]
+                    *              0             0             1 
+    30 schedule[6,S5]
+                    *              0             0             1 
+    31 schedule[7,S1]
+                    *              0             0             1 
+    32 schedule[7,S2]
+                    *              0             0             1 
+    33 schedule[7,S3]
+                    *              0             0             1 
+    34 schedule[7,S4]
+                    *              0             0             1 
+    35 schedule[7,S5]
+                    *              0             0             1 
+    36 schedule[8,S1]
+                    *              0             0             1 
+    37 schedule[8,S2]
+                    *              0             0             1 
+    38 schedule[8,S3]
+                    *              0             0             1 
+    39 schedule[8,S4]
+                    *              0             0             1 
+    40 schedule[8,S5]
+                    *              0             0             1 
+    41 schedule[9,S1]
+                    *              0             0             1 
+    42 schedule[9,S2]
+                    *              0             0             1 
+    43 schedule[9,S3]
+                    *              0             0             1 
+    44 schedule[9,S4]
+                    *              0             0             1 
+    45 schedule[9,S5]
+                    *              0             0             1 
+    46 schedule[10,S1]
+                    *              0             0             1 
+    47 schedule[10,S2]
+                    *              0             0             1 
+    48 schedule[10,S3]
+                    *              0             0             1 
+    49 schedule[10,S4]
+                    *              0             0             1 
+    50 schedule[10,S5]
+                    *              0             0             1 
+    51 schedule[11,S1]
+                    *              0             0             1 
+    52 schedule[11,S2]
+                    *              0             0             1 
+    53 schedule[11,S3]
+                    *              0             0             1 
+    54 schedule[11,S4]
+                    *              0             0             1 
+    55 schedule[11,S5]
+                    *              0             0             1 
+    56 schedule[12,S1]
+                    *              0             0             1 
+    57 schedule[12,S2]
+                    *              0             0             1 
+    58 schedule[12,S3]
+                    *              0             0             1 
+    59 schedule[12,S4]
+                    *              0             0             1 
+    60 schedule[12,S5]
+                    *              0             0             1 
+    61 schedule[13,S1]
+                    *              0             0             1 
+    62 schedule[13,S2]
+                    *              0             0             1 
+    63 schedule[13,S3]
+                    *              0             0             1 
+    64 schedule[13,S4]
+                    *              0             0             1 
+    65 schedule[13,S5]
+                    *              0             0             1 
+    66 schedule[14,S1]
+                    *              0             0             1 
+    67 schedule[14,S2]
+                    *              0             0             1 
+    68 schedule[14,S3]
+                    *              0             0             1 
+    69 schedule[14,S4]
+                    *              0             0             1 
+    70 schedule[14,S5]
+                    *              0             0             1 
+    71 schedule[15,S1]
+                    *              0             0             1 
+    72 schedule[15,S2]
+                    *              0             0             1 
+    73 schedule[15,S3]
+                    *              0             0             1 
+    74 schedule[15,S4]
+                    *              0             0             1 
+    75 schedule[15,S5]
+                    *              0             0             1 
+    76 schedule[16,S1]
+                    *              0             0             1 
+    77 schedule[16,S2]
+                    *              0             0             1 
+    78 schedule[16,S3]
+                    *              0             0             1 
+    79 schedule[16,S4]
+                    *              0             0             1 
+    80 schedule[16,S5]
+                    *              0             0             1 
+    81 schedule[17,S1]
+                    *              0             0             1 
+    82 schedule[17,S2]
+                    *              0             0             1 
+    83 schedule[17,S3]
+                    *              0             0             1 
+    84 schedule[17,S4]
+                    *              0             0             1 
+    85 schedule[17,S5]
+                    *              0             0             1 
+    86 schedule[18,S1]
+                    *              0             0             1 
+    87 schedule[18,S2]
+                    *              0             0             1 
+    88 schedule[18,S3]
+                    *              0             0             1 
+    89 schedule[18,S4]
+                    *              0             0             1 
+    90 schedule[18,S5]
+                    *              0             0             1 
+    91 schedule[19,S1]
+                    *              0             0             1 
+    92 schedule[19,S2]
+                    *              0             0             1 
+    93 schedule[19,S3]
+                    *              0             0             1 
+    94 schedule[19,S4]
+                    *              0             0             1 
+    95 schedule[19,S5]
+                    *              0             0             1 
+    96 schedule[20,S1]
+                    *              0             0             1 
+    97 schedule[20,S2]
+                    *              0             0             1 
+    98 schedule[20,S3]
+                    *              0             0             1 
+    99 schedule[20,S4]
+                    *              0             0             1 
+   100 schedule[20,S5]
+                    *              0             0             1 
+   101 done[S1]                    1             0               
+   102 done[S2]                    1             0               
+   103 done[S3]                    1             0               
+   104 done[S4]                    1             0               
+   105 done[S5]                    1             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
