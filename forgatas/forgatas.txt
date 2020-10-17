@@ -1,0 +1,2 @@
+day: 1 | scenes done: S1 S2 S4 | worked hours: 7
+day: 2 | scenes done: S3 S5 | worked hours: 2
