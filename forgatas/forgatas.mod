@@ -14,13 +14,17 @@ var schedule{Days, Scenes} binary;
 
 var done{Scenes} >= 0;
 
+var cost >= 0;
+
 s.t. no_overworking{d in Days}: sum{s in Scenes}schedule[d, s] * duration[s] <= work_hours * 60;
 
 s.t. checking_done_scenes{s in Scenes}: done[s] = sum{d in Days}schedule[d, s];
 
 s.t. need_all_scenes{s in Scenes}: done[s] >= 1;
 
-minimize Cost: sum{d in Days, s in Scenes} schedule[d, s] * sum{a in Actors}(available[s,a] * charge[a]);
+s.t. calcuating_cost: cost = sum{d in Days, s in Scenes} schedule[d, s] * sum{a in Actors}(available[s,a] * charge[a]);
+
+minimize Cost: cost;
 
 solve;
 
@@ -31,6 +35,8 @@ for {d in Days : sum{s in Scenes}schedule[d, s] >= 1} {
   }
   printf "| worked hours: %d\n", (sum{s in Scenes}schedule[d, s] * duration[s]) / 60;
 }
+
+printf "Total cost: %.0f $", cost;
 
 data;
 
